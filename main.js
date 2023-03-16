@@ -106,7 +106,9 @@ function reset() {
   d6Mean.innerText = "N/A";
   d6Median.innerText = "N/A";
   d20Mean.innerText = "N/A";
+  d20Median.innerText = "N/A";
   d12Mean.innerText = "N/A";
+  d12Median.innerText = "N/A";
   dblSixesMean.innerText = "N/A";
   sixes = [];
   doubleSixes = [];
