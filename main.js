@@ -137,13 +137,10 @@ function medianCal(arr) {
     if (arr.length === 0) {
       return null;
     }
-  
     arr.sort(function(a, b) {
       return a - b;
     });
-  
     let middleIndex = Math.floor(arr.length / 2);
-  
     if (arr.length % 2 === 0) {
       return (arr[middleIndex - 1] + arr[middleIndex]) / 2;
     } else {
